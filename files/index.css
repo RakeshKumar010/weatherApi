@@ -90,7 +90,7 @@ button {
 #brand{
     text-align: center;
     color: aliceblue;
-    font-size: larger;
+    font-size:large;
 }
 
 @media only screen and (max-width: 1265px) {
