@@ -9,8 +9,14 @@ let country = document.getElementById('country');
 let day = document.getElementById('day');
 let time = document.getElementById('time');
 
+ text.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("btn").click();
+  }
+});
 
-async function funName() {
+async function funName(event) {
 
   let cityName = text.value;
 
@@ -44,6 +50,8 @@ async function funName() {
   } else {
     time.innerHTML = `Time :- ${d.getHours()}:${d.getMinutes()} pm`;
   }
+
+
 
 
 
