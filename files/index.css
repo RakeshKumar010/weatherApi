@@ -8,7 +8,7 @@ body {
     background-size: cover;
     width: 55vw;
     height: 75vh;
-    margin: 60px 0px 0px 280px;
+    margin: 6vh 0vw 0vh 20.5vw;
     border-radius: 5%;
 
     border: 10px solid rgb(1, 3, 19);
@@ -87,12 +87,31 @@ button {
     height: 10vh;
     margin-left: 24vw;
 }
+#brand{
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
 
 @media only screen and (max-width: 1265px) {
     input {
         margin-left: 30vw;
     }
+    #city {
+     font-size: 5vh;
+     padding: 20px;
+    
+       
+    }
 
+}
+@media only screen and (max-width: 1145px) {
+    input{
+        margin-left: 25vw;
+    }
+    #city{
+        text-align: start;
+    }
 }
 
 @media only screen and (max-width: 411px) {
