@@ -16,7 +16,7 @@ let time = document.getElementById('time');
   }
 });
 
-async function funName(event) {
+async function funName() {
 
   let cityName = text.value;
 
